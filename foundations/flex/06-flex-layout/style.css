@@ -24,3 +24,64 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* MY CSS BEGINS HERE*/
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header,
+.content,
+.footer,
+.left-links,
+.right-links {
+  display: flex;
+}
+
+.header,
+.content,
+.footer {
+  width: 100vw;
+}
+
+.header,
+.footer {
+  justify-content: space-between;
+}
+
+.content {
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.buttons button {
+  padding: 0.5rem 1rem;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.left-links,
+.right-links {
+  gap: 1rem;
+  padding: 1rem;
+}

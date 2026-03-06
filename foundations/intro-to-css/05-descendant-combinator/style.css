@@ -1,1 +1,36 @@
-/* Add CSS Styling */
+.container .text {
+  background-color: #ffff00;
+  color: #ff0000;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* ALTERNATE SOLUTIONS 
+
+ALT SOLUTION #1
+
+.container p {
+  background-color: #ffff00;
+  color: #ff0000;
+  font-size: 20px;
+  text-align: center;
+}
+
+ALT SOLUTION #2
+
+div p {
+  background-color: #ffff00;
+  color: #ff0000;
+  font-size: 20px;
+  text-align: center;
+}
+
+ALT SOLUTION #3
+
+div .text {
+  background-color: #ffff00;
+  color: #ff0000;
+  font-size: 20px;
+  text-align: center;
+}
+*/

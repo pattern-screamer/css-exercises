@@ -46,3 +46,35 @@ html {
   color: white;
   text-align: left;
 }
+
+/* ADDING NEW STYLES HERE */
+.container {
+  display: grid;
+  grid-template: 100px 100px 500px 100px / 400px 1200px;
+  grid-template-areas: 
+  "header header"
+  "sidebar nav"
+  "sidebar article"
+  "footer footer";
+  gap: 15px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.article {
+  grid-area: article;
+}
+
+.footer {
+  grid-area: footer;
+}

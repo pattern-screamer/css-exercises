@@ -46,3 +46,28 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* HERE IS WHERE MY CODE COMES IN */
+.header,
+.header-left,
+.header-right,
+.links {
+  display: flex;
+}
+
+.header-left,
+.header-right,
+.links {
+  align-items: center;
+  gap: 16px;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+}
